@@ -1,0 +1,93 @@
+#pesquisa {
+  display: flex;
+  flex-direction: row;
+  margin: 150px auto 5px;
+  padding: 4px;
+  height: 50px;
+  background: #fff;
+  border-radius: 15px 15px 0px 0px;
+  text-align: left;
+  font-family: "Kufam", cursive;
+  width: 1010px;
+}
+
+#inputPesquisar {
+  font-family: "Kufam", cursive;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 50px;
+  border: none;
+  background: rgb(218, 217, 217);
+  float: right;
+  outline: none;
+}
+
+label {
+  font-size: 1.9em;
+  padding: 1px 12px;
+}
+
+#search {
+  border-radius: 1rem;
+  border: 1.7px solid #fafafa;
+  border-radius: 0.8rem;
+  border: 2px solid #fafafa;
+  padding: 7px 20px;
+  color: #155670;
+  font-weight: 700;
+  transition: all 0.3s;
+  background: #dad7d7;
+  margin-left: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+#search:hover {
+  background: #155670;
+  color: #f1f1f1;
+}
+
+#conteudo {
+  font-family: "Kufam", Arial, Helvetica, sans-serif;
+  border-radius: 0px 0px 15px 15px;
+  margin: 0px auto 50px;
+  width: 1010px;
+  height: 2100px;
+  background: #fff;
+}
+
+#tituloConteudo {
+  padding: 25px 0 15px;
+  margin-bottom: -85px;
+}
+
+header {
+  font-family: "Kufam", Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  box-shadow: 0px 0px 1px black;
+}
+h1 {
+  color: #066fe5;
+}
+
+#searchPagePrev,
+#searchPageNext {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0.8rem;
+  border: 2px solid rgb(170, 170, 170);
+}
+
+#searchPagePrev,
+#searchPageNext ::selection {
+  border-radius: 0.8rem !important;
+  background: rgb(170, 170, 170) !important;
+  border: 2px solid rgb(170, 170, 170) !important;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+body {
+  background: #f0f2f5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  background: #123397;
+  color: #f1f1f1;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.App {
+  background: #f0f2f5;
+  font-family: sans-serif;
+  text-align: center;
+}

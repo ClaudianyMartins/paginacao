@@ -1,0 +1,95 @@
+#logo {
+  width: 414px;
+  height: 75px;
+  margin: 41px auto 0px;
+  padding-top: 15px;
+}
+
+#minhaInformacao {
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 600px;
+  animation-name: cor-de-fundo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+@keyframes cor-de-fundo {
+  0% {
+    background: #1877f2;
+  }
+  25% {
+    background: blue;
+  }
+  50% {
+    background: #0b366f;
+  }
+  100% {
+    background: #1877f2;
+  }
+}
+#texto {
+  font-weight: bold;
+  font-size: 25pt;
+  text-align: left;
+  margin: 20px 15px 0px;
+  color: white;
+}
+#logo {
+  color: white;
+  font-size: 50pt;
+}
+
+#botaoParaLogin {
+  height: 65px;
+  width: 240px;
+  position: absolute;
+  bottom: 110px;
+  right: 20px;
+  margin: auto;
+  font-size: 2em;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-family: "Kufam", cursive;
+
+  cursor: pointer;
+}
+#botaoParaLogin:active {
+  background: blue;
+  color: white;
+}
+#botaoCadastrar {
+  height: 65px;
+  width: 240px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: auto;
+  font-size: 1.4em;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #15bf15;
+  color: white;
+  font-weight: bold;
+  font-family: "Kufam", cursive;
+}
+#botaoCadastrar:active {
+  background: #11a011;
+}
+#grupoPessoas {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 350px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
